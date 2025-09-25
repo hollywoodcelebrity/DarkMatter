@@ -1,0 +1,71 @@
+/* Reset some default margins and padding */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    line-height: 1.6;
+    padding: 40px;
+}
+
+/* Main title */
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    color: #ff5555;
+}
+
+/* Subheadings */
+h2 {
+    font-size: 1.3em;
+    background-color: #2e2e2e;
+    padding: 15px 20px;
+    border-left: 5px solid #ff5555;
+    margin: 30px auto;
+    max-width: 900px;
+    border-radius: 5px;
+}
+
+/* Video styling */
+video {
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+    border: 2px solid #444;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+
+/* Image styling */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    max-width: 90%;
+    height: auto;
+}
+
+/* Links in video fallback */
+a {
+    color: #66ccff;
+    text-decoration: underline;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1em;
+        padding: 10px 15px;
+    }
+
+    video {
+        width: 100%;
+    }
+}
